@@ -1,5 +1,6 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    background-color:rgb(37, 33, 33);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
     background-image: url('/bg.jpeg');
     background-size: cover;
@@ -12,28 +13,34 @@ body {
     font-size: 20px;
 }
 
-#startbtn {
-    border:none;
-        padding:6px 2px 6px 2px;
-        border-radius:8px;
-        background:rgb(170, 20, 20);
-        font:bold 40px;
-        color:#fff;
-        box-shadow: 5px 5px #888888;
+h1 {
+    font-size: 5.4rem;
+    color: white;
+    margin-bottom: 5rem;
 }
 
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
 
+.flex-center {
+    justify-content: center;
+    align-items: center;
+}
 
+.btn {
+    font-size: 2.4rem;
+    padding: 2rem 0;
+    background:rgb(170, 20, 20);
+    font: bold;
+    width: 30rem;
+    text-align: center;
+    margin-bottom: 1rem;
+    color:#fff;
+}
 
-
-<body>
-    <header>
-        <h1>Coding Quiz</h1>
-    </header>
-    <main id="mainEl">
-        <p>Click the button below to start the quiz</p>
-        <div class="container"></div>
-        <button class="btn" id="startbtn">Start Quiz</button>
-    </main>
-    <script src="script.js"></script>
-</body>
+.btn:hover {
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(255, 0, 0, 0.411);
+}
