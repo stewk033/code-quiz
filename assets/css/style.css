@@ -2,7 +2,6 @@ body {
     background-color:rgb(37, 33, 33);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
-    background-image: url('/bg.jpeg');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
